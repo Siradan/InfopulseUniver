@@ -42,10 +42,7 @@ public class FigureArray {
 	}
 
 	private static boolean checkType(String type) {
-		return type.equals("ua.univer.figures.Point") || type.equals("ua.univer.figures.ColoredPoint")
-				|| type.equals("ua.univer.figures.Line") || type.equals("ua.univer.figures.ColoredLine")
-				|| type.equals("ua.univer.figures.Triangle") || type.equals("ua.univer.figures.ColoredTriangle")
-				|| type.equals("ua.univer.figures.Multiangle");
+		return type.contains("ua.univer.figures.model");
 	}
 
 	@Override

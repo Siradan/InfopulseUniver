@@ -1,4 +1,4 @@
-package ua.univer.figures;
+package ua.univer.figures.model;
 
 public class Point {
 	private int x;

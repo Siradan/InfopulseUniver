@@ -1,4 +1,4 @@
-package ua.univer.figures;
+package ua.univer.figures.model;
 
 public class Triangle {
 	private Point p0, p1, p2;
