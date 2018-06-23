@@ -1,6 +1,6 @@
 package ua.univer.figures.model;
 
-public class Triangle {
+public class Triangle extends Figure{
 	private Point p0, p1, p2;
 	private Line p0p1, p1p2, p0p2;
 

@@ -12,8 +12,17 @@ public class ColoredPoint extends Point {
 	}
 
 	public ColoredPoint() {
-		super(0, 0);
-		setColor("WHITE");
+		this("WHITE");
+	}
+	
+	public ColoredPoint(String color) {
+		super();
+		this.color = color;
+	}
+	
+	public ColoredPoint(int x, int y, String color) {
+		super(x, y);
+		this.color = color;
 	}
 
 	@Override

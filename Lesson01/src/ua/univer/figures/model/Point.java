@@ -1,6 +1,6 @@
 package ua.univer.figures.model;
 
-public class Point {
+public class Point extends Figure{
 	private int x;
 	private int y;
 	private int pointId;

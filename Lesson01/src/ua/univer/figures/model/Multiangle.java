@@ -2,7 +2,7 @@ package ua.univer.figures.model;
 
 import java.util.Arrays;
 
-public class Multiangle {
+public class Multiangle extends Figure {
 	private Point[] points;
 	private Line[] lines;
 
