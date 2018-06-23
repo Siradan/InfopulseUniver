@@ -36,6 +36,10 @@ public class FigureArray {
 			array[i] = object;
 		}
 	}
+	
+	public int getSize() {
+		return array.length;
+	}
 
 	private static boolean checkType(String type) {
 		return type.equals("ua.univer.figures.Point") || type.equals("ua.univer.figures.ColoredPoint")
