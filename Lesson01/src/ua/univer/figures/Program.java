@@ -21,7 +21,9 @@ public class Program {
 		Triangle triangle = new Triangle(p1, p2, cp1);
 		//System.out.println(triangle);
 		Multiangle figure = new Multiangle(p1, p2, p3, p4);
-		System.out.println(figure);
+		//System.out.println(figure);
+		FigureArray array = new FigureArray(p1, p2, p3, cp1, line0, line2, triangle, figure);
+		System.out.println(array);
 	}
 
 }
